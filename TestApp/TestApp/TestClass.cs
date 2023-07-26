@@ -10,9 +10,9 @@
     {
         public string MyContent { get; set; }
 
-        public TestClass()
+        public TestClass(string content)
         {
-            MyContent = string.Empty;
+            MyContent = content;
         }
     }
 }
