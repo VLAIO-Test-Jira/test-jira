@@ -8,19 +8,20 @@
 
     public class TestClass
     {
-        //         __         __
-        //        /  \.-"""-./  \
-        //        \    -   -    /
-        //          |   o o   |
-        //         \  .-'''-.  /
-        //          '-\__Y__/-'
-        //             `---`
+        //               ((`\
+        //            ___ \\ '--._
+        //         .'`   `'    o  )
+        //        /    \   '. __.'
+        //      _|    /_  \ \_\_
+        //     {_\______\-'\__\_\
 
         public string MyContent { get; set; }
+        public bool EatsMeat { get; set; }
 
         public TestClass(string content)
         {
             MyContent = content;
+            EatsMeat = false;
         }
     }
 }
