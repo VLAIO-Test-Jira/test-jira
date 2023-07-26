@@ -8,6 +8,14 @@
 
     public class TestClass
     {
+        //         __         __
+        //        /  \.-"""-./  \
+        //        \    -   -    /
+        //          |   o o   |
+        //         \  .-'''-.  /
+        //          '-\__Y__/-'
+        //             `---`
+
         public string MyContent { get; set; }
 
         public TestClass(string content)
