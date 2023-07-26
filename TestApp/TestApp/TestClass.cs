@@ -17,6 +17,7 @@
 
         public string MyContent { get; set; }
         public bool EatsMeat { get; set; }
+        public int AmountOfLegs { get; set; } = 4;
 
         public TestClass(string content)
         {
