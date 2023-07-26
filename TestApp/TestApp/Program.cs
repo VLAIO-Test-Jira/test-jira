@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+// Don't say hi, to the world, only to VLAIO
+// Console.WriteLine("Hello, World!");
 
 Console.WriteLine("Hello VLAIO!");
