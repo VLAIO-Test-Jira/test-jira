@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="NetIT.Atlas.Crm.Plugin.General.MergeFields: Update of ao_bter_financing" SdkMessageProcessingStepId="{db0e68e9-9696-e911-80cd-00155d00f70b}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>NetIT.Atlas.Crm.Plugin.General.MergeFields, NetIT.Atlas.Crm.Plugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e4be38f7dbe2af79</PluginTypeName>
+  <PluginTypeId>ad32a141-1206-ea11-80d4-00155d00f706</PluginTypeId>
+  <PrimaryEntity>ao_bter_financing</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>NetIT.Atlas.Crm.Plugin.General.MergeFields: Update of ao_bter_financing</Description>
+  <FilteringAttributes>ao_bterid,ao_financingid</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PreImage">
+      <SdkMessageProcessingStepImageId>{1ccb1e93-a09d-e911-80cd-00155d00f70b}</SdkMessageProcessingStepImageId>
+      <Attributes>ao_bterid,ao_bter_financingid</Attributes>
+      <EntityAlias>PreImage</EntityAlias>
+      <ImageType>0</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

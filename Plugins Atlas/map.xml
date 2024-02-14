@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--###########################################
+!!!!! README FIRST !!!!!
+Paths in the 'to' tag MUST be relative starting from the project root folder.
+The addin will transform the path to a path that will work for the solution packager.
+
+Assemblies in solutions usually do not contain any dots in the name. Ex: NetIT.Training.MainCrmAssembly.dll => NetITTrainingMainCrmAssembly.dll
+
+###############################################-->
+<Mapping>
+</Mapping>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="NetIT.Atlas.Crm.Plugin.General.MergeFields: Update of ao_fetchxmlcondition" SdkMessageProcessingStepId="{b939d855-a9e4-e711-80bc-00155d00f309}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>NetIT.Atlas.Crm.Plugin.General.MergeFields, NetIT.Atlas.Crm.Plugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e4be38f7dbe2af79</PluginTypeName>
+  <PluginTypeId>ad32a141-1206-ea11-80d4-00155d00f706</PluginTypeId>
+  <PrimaryEntity>ao_fetchxmlcondition</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Configuration>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;AtlasConfiguration&gt;
+  &lt;RunAsAdminUser&gt;True&lt;/RunAsAdminUser&gt;
+&lt;/AtlasConfiguration&gt;</Configuration>
+  <Description>NetIT.Atlas.Crm.Plugin.General.MergeFields: Update of ao_fetchxmlcondition</Description>
+  <FilteringAttributes>ao_functionalshortdescription,ao_name,ao_sharepointfolderconfigurationid</FilteringAttributes>
+  <ImpersonatingUserIdName>User 1, Service</ImpersonatingUserIdName>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PreImage">
+      <SdkMessageProcessingStepImageId>{c05b8875-a9e4-e711-80bc-00155d00f309}</SdkMessageProcessingStepImageId>
+      <Attributes>ao_functionalshortdescription,ao_sharepointfolderconfigurationid</Attributes>
+      <EntityAlias>PreImage</EntityAlias>
+      <ImageType>0</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

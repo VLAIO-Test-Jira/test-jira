@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="NetIT.Atlas.Crm.Plugin.General.CascadeChilds: Update of ao_orafincreditline" SdkMessageProcessingStepId="{e4d21125-3783-e711-80c5-00155d00f157}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>NetIT.Atlas.Crm.Plugin.General.CascadeChilds, NetIT.Atlas.Crm.Plugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e4be38f7dbe2af79</PluginTypeName>
+  <PluginTypeId>ac32a141-1206-ea11-80d4-00155d00f706</PluginTypeId>
+  <PrimaryEntity>ao_orafincreditline</PrimaryEntity>
+  <AsyncAutoDelete>1</AsyncAutoDelete>
+  <Configuration>&lt;AtlasConfiguration&gt;&lt;RunAsAdminUser&gt;True&lt;/RunAsAdminUser&gt;&lt;/AtlasConfiguration&gt;</Configuration>
+  <Description>NetIT.Atlas.Crm.Plugin.General.CascadeChilds: Update of ao_orafincreditline</Description>
+  <FilteringAttributes>ao_name</FilteringAttributes>
+  <ImpersonatingUserIdName>User 1, Service</ImpersonatingUserIdName>
+  <InvocationSource>1</InvocationSource>
+  <Mode>1</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="NetIT.Atlas.Crm.ValueGetterCacheMonitorPlugin: Publish of  any Entity" SdkMessageProcessingStepId="{1781297f-1f59-e811-80be-00155d00f309}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>b2bdbb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>NetIT.Atlas.Crm.ValueGetterCacheMonitorPlugin, NetIT.AO.eFAModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6cb9f59c9f585ade</PluginTypeName>
+  <PluginTypeId>c0cc7401-2b06-ea11-80d4-00155d00f706</PluginTypeId>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>
