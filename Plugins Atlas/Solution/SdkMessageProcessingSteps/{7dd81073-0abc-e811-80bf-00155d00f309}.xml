@@ -2,7 +2,7 @@
 <SdkMessageProcessingStep Name="NetIT.Atlas.Crm.Plugin.General.CascadeChilds: Update of ao_bankaccount" SdkMessageProcessingStepId="{7dd81073-0abc-e811-80bf-00155d00f309}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
   <PluginTypeName>NetIT.Atlas.Crm.Plugin.General.CascadeChilds, NetIT.Atlas.Crm.Plugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e4be38f7dbe2af79</PluginTypeName>
-  <PluginTypeId>ac32a141-1206-ea11-80d4-00155d00f706</PluginTypeId>
+  <PluginTypeId>dd880414-665b-ed11-a63a-00155d016b3c</PluginTypeId>
   <PrimaryEntity>ao_bankaccount</PrimaryEntity>
   <AsyncAutoDelete>0</AsyncAutoDelete>
   <Description>NetIT.Atlas.Crm.Plugin.General.CascadeChilds: Update of ao_bankaccount</Description>

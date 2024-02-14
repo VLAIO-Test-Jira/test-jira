@@ -2,7 +2,7 @@
 <SdkMessageProcessingStep Name="NetIT.Atlas.Crm.Plugin.General.MergeFields: Create of ao_agendaitemexpert" SdkMessageProcessingStepId="{888ff7cb-7739-e811-80be-00155d00f309}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SdkMessageId>9ebdbb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
   <PluginTypeName>NetIT.Atlas.Crm.Plugin.General.MergeFields, NetIT.Atlas.Crm.Plugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e4be38f7dbe2af79</PluginTypeName>
-  <PluginTypeId>ad32a141-1206-ea11-80d4-00155d00f706</PluginTypeId>
+  <PluginTypeId>de880414-665b-ed11-a63a-00155d016b3c</PluginTypeId>
   <PrimaryEntity>ao_agendaitemexpert</PrimaryEntity>
   <AsyncAutoDelete>0</AsyncAutoDelete>
   <Description>NetIT.Atlas.Crm.Plugin.General.MergeFields: Create of ao_agendaitemexpert</Description>

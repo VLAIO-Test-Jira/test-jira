@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SdkMessageProcessingStep Name="NetIT.Atlas.Crm.Plugin.General.MergeFields: Update of ao_blobstoragedocument" SdkMessageProcessingStepId="{d91c899b-0e9a-ec11-8caa-00155d016b34}">
+<SdkMessageProcessingStep Name="NetIT.Atlas.Crm.Plugin.General.MergeFields: Update of ao_blobstoragedocument" SdkMessageProcessingStepId="{d91c899b-0e9a-ec11-8caa-00155d016b34}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
   <PluginTypeName>NetIT.Atlas.Crm.Plugin.General.MergeFields, NetIT.Atlas.Crm.Plugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e4be38f7dbe2af79</PluginTypeName>
-  <PluginTypeId>ad32a141-1206-ea11-80d4-00155d00f706</PluginTypeId>
+  <PluginTypeId>de880414-665b-ed11-a63a-00155d016b3c</PluginTypeId>
   <PrimaryEntity>ao_blobstoragedocument</PrimaryEntity>
   <AsyncAutoDelete>0</AsyncAutoDelete>
   <FilteringAttributes>ao_filename</FilteringAttributes>

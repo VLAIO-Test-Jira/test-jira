@@ -2,7 +2,7 @@
 <SdkMessageProcessingStep Name="NetIT.Atlas.Crm.Plugin.General.CascadeChilds: Update of ao_oihs" SdkMessageProcessingStepId="{0d46cdd9-4ab5-ea11-80e1-00155d00f720}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
   <PluginTypeName>NetIT.Atlas.Crm.Plugin.General.CascadeChilds, NetIT.Atlas.Crm.Plugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e4be38f7dbe2af79</PluginTypeName>
-  <PluginTypeId>ac32a141-1206-ea11-80d4-00155d00f706</PluginTypeId>
+  <PluginTypeId>dd880414-665b-ed11-a63a-00155d016b3c</PluginTypeId>
   <PrimaryEntity>ao_oihs</PrimaryEntity>
   <AsyncAutoDelete>0</AsyncAutoDelete>
   <Configuration>&lt;AtlasConfiguration&gt;&lt;RunAsAdminUser&gt;True&lt;/RunAsAdminUser&gt;&lt;/AtlasConfiguration&gt;</Configuration>

@@ -2,7 +2,7 @@
 <SdkMessageProcessingStep Name="NetIT.Atlas.Crm.Plugin.AutoNumbering.SetNumber: Create of ao_mailregistration" SdkMessageProcessingStepId="{39035b7d-4d41-e811-80cf-00155dfa0206}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SdkMessageId>9ebdbb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
   <PluginTypeName>NetIT.Atlas.Crm.Plugin.AutoNumbering.SetNumber, NetIT.Atlas.Crm.Plugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e4be38f7dbe2af79</PluginTypeName>
-  <PluginTypeId>aa32a141-1206-ea11-80d4-00155d00f706</PluginTypeId>
+  <PluginTypeId>db880414-665b-ed11-a63a-00155d016b3c</PluginTypeId>
   <PrimaryEntity>ao_mailregistration</PrimaryEntity>
   <AsyncAutoDelete>0</AsyncAutoDelete>
   <Description>NetIT.Atlas.Crm.Plugin.AutoNumbering.SetNumber: Create of ao_mailregistration</Description>
