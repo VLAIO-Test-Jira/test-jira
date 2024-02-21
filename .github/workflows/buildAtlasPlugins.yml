@@ -39,6 +39,9 @@ jobs:
             with:
               name: solution-to-import
 
+          - name: Install Power Platform tools
+            uses: microsoft/powerplatform-actions/actions-install@v1
+
           - name: Deploy solution
             uses: microsoft/powerplatform-actions/import-solution@v1
             with:
