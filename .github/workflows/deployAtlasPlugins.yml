@@ -20,7 +20,7 @@ jobs:
               uses: microsoft/powerplatform-actions/pack-solution@v1
               with:
                 solution-file: solution.zip
-                solution-folder: Plugins Atlas
+                solution-folder: Plugins Atlas/Solution
                 solution-type: Unmanaged
             
             - name: Upload artifact
