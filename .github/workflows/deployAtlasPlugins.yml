@@ -1,0 +1,32 @@
+name: release-atlas-plugins
+run-name: Deploy to XXX by @${{github.actor}}
+
+on: 
+    push:
+        branches:
+            - develop
+
+jobs:
+    build:              
+        runs-on: ubuntu-latest              
+        steps:
+            - name: Install Power Platform tools
+              uses: microsoft/powerplatform-actions/actions-install@v1
+
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Pack solution
+              uses: microsoft/powerplatform-actions/pack-solution@v1
+              with:
+                solution-file: solution.zip
+                solution-folder: Plugins Atlas
+                solution-type: Unmanaged
+            
+            - name: Upload artifact
+              uses: actions/upload-artifact@v4
+              with:
+                name: solution-to-import
+                path: solution.zip
+
+            
