@@ -1,5 +1,5 @@
-name: release-atlas-plugins
-run-name: Deploy to XXX by @${{github.actor}}
+name: build-atlas-plugins
+run-name: Build Atlas plugins by @${{github.actor}}
 
 on: 
     push:
@@ -28,5 +28,23 @@ jobs:
               with:
                 name: solution-to-import
                 path: solution.zip
+
+    deployment:
+        runs-on: ubuntu-latest
+        environment: KRISTI
+        steps:
+          - name: Download artifact
+            uses: actions/download-artifact@v4
+            with:
+              name: solution-to-import
+
+          - name: Deploy solution
+            uses: microsoft/powerplatform-actions/import-solution@v1
+            with:
+              environment-url: https://crm-ti.dynamics.krista.services
+              user-name: ${{ secrets.USERNAME }}
+              password-secret: ${{ secrets.PASSWORD }}
+              solution-file: solution.zip
+                
 
             
